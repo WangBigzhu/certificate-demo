@@ -8,17 +8,17 @@
 </head>
 <body>
   <div class="page">
+    <!-- 输入表单 -->
     <div class="form-box" id="formBox">
       <h1>公益证书生成</h1>
       <p>请输入姓名后生成证书</p>
-      <input type="text" id="nameInput" placeholder="请输入姓名" />
+      <input type="text" id="nameInput" placeholder="请输入姓名" maxlength="20" />
       <button id="generateBtn">生成证书</button>
     </div>
 
+    <!-- 证书区域 -->
     <div class="certificate-wrapper hidden" id="certificateWrapper">
       <div class="certificate" id="certificate">
-        <img src="certificate.png" alt="证书底图" class="bg" />
-
         <div class="donor-name" id="donorName"></div>
         <div class="year" id="yearText"></div>
         <div class="month" id="monthText"></div>
@@ -26,11 +26,12 @@
       </div>
 
       <div class="action-bar">
-        <button id="backBtn">返回修改</button>
+        <button id="downloadBtn">下载证书</button>
       </div>
     </div>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
