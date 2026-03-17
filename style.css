@@ -152,10 +152,10 @@ body {
   }
 
   .donor-name {
-    left: 24%;
+    left: 22;
     top: 35.1%;
-    width: 14%;
-    font-size: clamp(11px, 2.4vw, 16px);
+    width: 14%
+    font-size: clamp(13px, 2.8vw, 18px);
     text-align: left;
   }
 
@@ -163,7 +163,7 @@ body {
     left: 67%;
     top: 92%;
     width: 24%;
-    font-size: clamp(10px, 2.2vw, 15px);
+    font-size: clamp(12px, 2.6vw, 18px);
     text-align: left;
   }
 
