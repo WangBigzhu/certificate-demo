@@ -6,9 +6,7 @@ const formBox = document.getElementById("formBox");
 const certificateWrapper = document.getElementById("certificateWrapper");
 
 const donorName = document.getElementById("donorName");
-const yearText = document.getElementById("yearText");
-const monthText = document.getElementById("monthText");
-const dayText = document.getElementById("dayText");
+const dateText = document.getElementById("dateText");
 const certificate = document.getElementById("certificate");
 
 // 生成证书
@@ -22,14 +20,11 @@ generateBtn.addEventListener("click", () => {
 
   const now = new Date();
   donorName.textContent = name;
-  yearText.textContent = now.getFullYear();
-  monthText.textContent = now.getMonth() + 1;
-  dayText.textContent = now.getDate();
+  dateText.textContent = `${now.getFullYear()}年 ${now.getMonth() + 1}月 ${now.getDate()}日`;
 
   formBox.classList.add("hidden");
   certificateWrapper.classList.remove("hidden");
 
-  // 滚动到证书区域顶部
   window.scrollTo({
     top: 0,
     behavior: "smooth"
