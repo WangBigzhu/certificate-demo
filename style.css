@@ -96,7 +96,7 @@ body {
   overflow: hidden;
 }
 
-/* 文字样式 */
+/* 通用文字样式 */
 .donor-name,
 .year,
 .month,
@@ -108,36 +108,36 @@ body {
   white-space: nowrap;
 }
 
-/* 姓名：左上横线处 */
+/* 姓名：左上横线位置 */
 .donor-name {
-  left: 29%;
-  top: 34.8%;
-  width: 18%;
+  left: 27%;
+  top: 36%;
+  width: 20%;
   font-size: clamp(18px, 2.2vw, 28px);
   text-align: left;
 }
 
-/* 日期：右下角 */
+/* 日期：右下角，间距调紧 */
 .year {
-  left: 68%;
+  left: 66%;
   top: 92%;
-  width: 9%;
+  width: 10%;
   font-size: clamp(14px, 1.8vw, 22px);
   text-align: center;
 }
 
 .month {
-  left: 79%;
+  left: 75.5%;
   top: 92%;
-  width: 5%;
+  width: 7%;
   font-size: clamp(14px, 1.8vw, 22px);
   text-align: center;
 }
 
 .day {
-  left: 88%;
+  left: 84%;
   top: 92%;
-  width: 5%;
+  width: 7%;
   font-size: clamp(14px, 1.8vw, 22px);
   text-align: center;
 }
@@ -173,33 +173,33 @@ body {
   }
 
   .donor-name {
-    left: 29%;
-    top: 34.8%;
+    left: 27%;
+    top: 36%;
     width: 20%;
     font-size: clamp(12px, 2.8vw, 18px);
     text-align: left;
   }
 
   .year {
-    left: 68%;
+    left: 66%;
     top: 92%;
-    width: 9%;
+    width: 10%;
     font-size: clamp(10px, 2.2vw, 16px);
     text-align: center;
   }
 
   .month {
-    left: 79%;
+    left: 75.5%;
     top: 92%;
-    width: 5%;
+    width: 7%;
     font-size: clamp(10px, 2.2vw, 16px);
     text-align: center;
   }
 
   .day {
-    left: 88%;
+    left: 84%;
     top: 92%;
-    width: 5%;
+    width: 7%;
     font-size: clamp(10px, 2.2vw, 16px);
     text-align: center;
   }
